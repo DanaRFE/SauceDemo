@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Learn Cypress",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Daniela Romaniuc",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "cypress": "^13.6.2",
+    "mocha": "^10.2.0"
+  }
+}
