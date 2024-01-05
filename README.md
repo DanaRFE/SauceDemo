@@ -1,4 +1,8 @@
-This test is checking if the log in and log out is working, if the user is using some invalid credentials, the app will return an error and also is checking if the user is able to add and remove an item to/from card.
+**SauceDEMO Test**
+
+**Description:**
+
+This test is checking if the login and logout is working, if the user is using some invalid credentials, the app will return an error and also is checking if the user is able to add and remove an item to/from card.
 
 **Instalation:**
 
@@ -19,6 +23,17 @@ This test is checking if the log in and log out is working, if the user is using
  npm run runner (you can find in package.json that is set to open e2e tests directly in chrome)
  After is opened click on the saucetest.cy.ts from Specs 
  Everything should work as expected 
+
+**Functions used:**
+ 
+ beforeEach()-> before every it() it go on the baseURL defined in cypress.config.js
+             -> the second beforeEach() will also Login using some valid credentials 
+  cy.get() -> was used to interract with different DOM elements 
+  click() -> was used to click on different DOM elements 
+  should() -> was used to make assertion to verify conditions 
+  Login.loginAction() and Logout.logoutAction() ->loginAction and logoutAction are methods of Login and Logout classes;
+  
+ 
 
 
 
