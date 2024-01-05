@@ -21,7 +21,9 @@ This test is checking if the login and logout is working, if the user is using s
 
 **How to run the test :**
  npm run runner (you can find in package.json that is set to open e2e tests directly in chrome)
+ 
  After is opened click on the saucetest.cy.ts from Specs 
+ 
  Everything should work as expected 
 
 **Functions used:**
