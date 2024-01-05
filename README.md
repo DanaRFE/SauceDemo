@@ -26,12 +26,12 @@ This test is checking if the login and logout is working, if the user is using s
 
 **Functions used:**
  
- beforeEach()-> before every it() it go on the baseURL defined in cypress.config.js
+1. beforeEach()-> before every it() it go on the baseURL defined in cypress.config.js
              -> the second beforeEach() will also Login using some valid credentials 
-  cy.get() -> was used to interract with different DOM elements 
-  click() -> was used to click on different DOM elements 
-  should() -> was used to make assertion to verify conditions 
-  Login.loginAction() and Logout.logoutAction() ->loginAction and logoutAction are methods of Login and Logout classes;
+2. cy.get() -> was used to interract with different DOM elements 
+3.  click() -> was used to click on different DOM elements 
+4.  should() -> was used to make assertion to verify conditions 
+5.  Login.loginAction() and Logout.logoutAction() ->loginAction and logoutAction are methods of Login and Logout classes;
   
  
 
